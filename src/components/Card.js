@@ -1,6 +1,6 @@
 import { hover } from "@testing-library/user-event/dist/hover"
 import Btn from "./Btn"
-// import Mexico from '../fotos/img/Mexico.jpg'
+
 
 
 
@@ -29,10 +29,11 @@ const Card = (props) => {
 const cardStyles = { 
   border: "2px solid rgb(212, 212, 212)",
   borderRadius:"5px",
-  width: "300px",
-  heigth:"100px", 
+  backgroundColor:"white",
   display: "flex",
   flexDirection: "column",
+  width: "300px",
+  heigth:"100px", 
 }
 
 const precioStyle ={

@@ -13,7 +13,7 @@ const Btn = () => {
 
 export default Btn
 
-  const btnStyles = {
+const btnStyles = {
   backgroundColor: "rgb(212, 212, 212)",
   fontWeight: "bolder",
   padding: "5px 5px",

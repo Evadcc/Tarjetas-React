@@ -1,5 +1,5 @@
 import CardsList from "./components/CardsList";
-// import Mexico from './fotos/img/Mexico.jpg';
+
 
 const db = [
   {id:1,
@@ -48,11 +48,13 @@ const db = [
 
 function App() {
   return (
-   <> 
-     <h1 style={{margin: "30px"}}>Top searched flights</h1>
-    <CardsList
-    data = {db}/>
-    </>
+  <> 
+    <div style={{backgroundColor:"#EEEEEE"}}>
+      <h1 style={{margin: "30px", backgroundColor:"#EEEEEE"}}>Top searched flights</h1>
+      <CardsList
+      data = {db}/>
+    </div>
+  </>
   );
 }
 
